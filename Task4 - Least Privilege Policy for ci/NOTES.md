@@ -16,21 +16,21 @@ I deliberately excluded:
 
 
 
-\- ecr:DeleteRepository
+ecr:DeleteRepository
 
-\- ecr:DeleteImage
+ecr:DeleteImage
 
-\- ecs:DeleteService
+ecs:DeleteService
 
-\- ecs:CreateCluster
+ecs:CreateCluster
 
-\- ecs:\* wildcard permissions
+ecs:\* wildcard permissions
 
-\- s3:PutObject
+s3:PutObject
 
-\- s3:DeleteObject
+s3:DeleteObject
 
-\- AdministratorAccess
+AdministratorAccess
 
 
 
